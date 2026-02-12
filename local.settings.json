@@ -4,7 +4,7 @@
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "CosmosDbConnectionString": "AccountEndpoint=https://<YOUR-ACCOUNT>.documents.azure.com:443/;AccountKey=<YOUR-KEY>;",
-    "MONGO_URI": "mongodb+srv://phop2547:<Tatsumaki-Yuya12>@phopdb.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000",
+    "MONGO_URI": "mongodb+srv://phop2547:Tatsumaki-Yuya12@phopdb.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000",
     "MONGO_DB_NAME": "phopdb"
   }
 }
