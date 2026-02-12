@@ -9,7 +9,7 @@ from datetime import datetime
 
 app = func.FunctionApp()
 
-@app.blob_trigger(arg_name="myblob", path="reviews/{name}",
+@app.blob_trigger(arg_name="myblob", path="reviews/{phopstoragegroup}",
                   connection="AzureWebJobsStorage")
 def reviews_blob_trigger(myblob: func.InputStream):
     logging.info(f"Python blob trigger function processed blob \n"
